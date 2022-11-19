@@ -29,13 +29,20 @@ public class Conversation {
 	System.out.println("Approximate age: " + (2022-birthyear));
    
 	//Part 5 code goes here.
+	int houseNumber;
+  	String streetName, city, state, zipcode;
+	
+  	System.out.print("Enter house number> ");
+  	houseNumber=reader.nextInt();
+  	System.out.print("Enter street name> ");
+  	streetName = reader.nextLine();
 
    
 
     
     //Part 6 Add code to read the rest of the address (city, state, zipcode) and print it
 
-
+	System.out.print("Enter city: ");city=reader.nextLine();System.out.print("Enter State: ");state=reader.nextLine();System.out.print("Enter Zipcode: ");zipcode=reader.nextLine();
 
     //////////////////////////////
    
