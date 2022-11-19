@@ -53,7 +53,8 @@ public class Conversation {
 	pricePeanuts = reader.nextDouble();
 	totalPrice += pricePeanuts;
     //Part 4 code for bread and watermelon
-
+	
+	// where part 4?
 
 
 	System.out.println("The total cost is $" + totalPrice);
